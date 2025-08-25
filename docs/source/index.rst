@@ -9,15 +9,15 @@ In the project, a continuation for the provision of free area for the open sourc
 
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+--------------+
 |         Tape In date          | 10 May 2024 | 11 Nov 2024 | 22 Nov 2024 | 07 Apr 2025 | 09 May 2025 | 18 Jul 2025 | 14 Sep 2025* |
-+===============================+=============+=============+=============+=============+=============+=============+=============++
++===============================+=============+=============+=============+=============+=============+=============+==============+
 |          Technology           |   SG13G2    |  SG13CMOS   |   SG13G2    |   SG13G2    |   SG13G2    |   SG13G2    |  SG13CMOS    |
 | Area available [mm\ :sup:`2`] |     10      |     220     |     20      |     140     |     30      |     30      |     220      |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+--------------+
 
 .. caution::
 
-    * In the case of September 2025 shuttle, the initial pull request should contain the design information in ``metadata.json`` provided in 
-      `TO_Sep2025 <https://github.com/IHP-GmbH/TO_Sep2025>`_ respositiry. The final GDS and design files should be submitted by 14th of September 2025.
+    * In the case of September 2025 shuttle, the initial pull request must be executed before 1-st of Sep and should contain at least design information in ``metadata.json`` provided in 
+      `TO_Sep2025 <https://github.com/IHP-GmbH/TO_Sep2025>`_ respositiry. The final GDS and design files have to be submitted by 14th of September 2025.
 
 The SG13G2 refers to the full access to the devices available in the `IHP-Open-PDK`. 
 The SG13CMOS is an limited version of the SG13G2, which does not provide access to the HBT devices (High Performance Heterojunction Bipolar Transistors) 
