@@ -13,3 +13,10 @@ Proposed directory structure:
  ┃ ┣ ...
  ┗ 📁val <- validation/verification
  ```
+
+## Directory overview
+
+- `AnalogLDO_exampleDesign`, `LNA_24GHz`, etc.: analogue reference designs.
+- `LibreLane/`: digital RTL-to-GDS examples validated with LibreLane + SG13G2. See
+  `LibreLane/README.md` for the list of currently supported designs (`usb`, `BM64`,
+  `picorv32a`).
